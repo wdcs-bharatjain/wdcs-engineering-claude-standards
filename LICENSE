@@ -1,0 +1,23 @@
+WDCS Proprietary License
+
+Copyright (c) 2026 WDCS. All rights reserved.
+
+This repository and its contents are the confidential and proprietary property
+of WDCS. They are made available for internal WDCS engineering use only.
+
+Permitted, for WDCS personnel and authorized contractors:
+
+  * use of these standards, templates, and Claude Code configuration on WDCS
+    projects and on WDCS-managed devices;
+  * copying templates into WDCS project repositories;
+  * modification through the review process described in POLICY.md.
+
+Not permitted without prior written permission from WDCS:
+
+  * distribution, publication, or disclosure outside WDCS;
+  * use in a project that is not a WDCS project.
+
+Provided "as is", without warranty of any kind. Nothing in this repository is a
+security guarantee; see SECURITY.md.
+
+The plugin manifest declares this license as LicenseRef-WDCS-Proprietary.

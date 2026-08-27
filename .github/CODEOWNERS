@@ -1,0 +1,30 @@
+# Owners for this standards repository.
+#
+# Replace the placeholders with real GitHub teams before rollout, then turn on
+# "Require review from Code Owners" in branch protection. Until a real team is
+# set, the required-review rule has nothing to enforce.
+
+# Everything, by default.
+* @WDCS/engineering-owners
+
+# Security policy and anything that can block a tool call.
+/standards/security-baseline.md   @WDCS/security
+/standards/web-security.md        @WDCS/security
+/standards/csp.md                 @WDCS/security
+/standards/secrets.md             @WDCS/security
+/standards/ai-security.md         @WDCS/security
+/standards/dependencies.md        @WDCS/security
+/SECURITY.md                      @WDCS/security
+/POLICY.md                        @WDCS/security @WDCS/engineering-owners
+/claude/managed-settings.json     @WDCS/security @WDCS/devops
+/claude/plugin/hooks/             @WDCS/security
+/claude/plugin/scripts/           @WDCS/security
+
+# Blockchain standards.
+/standards/solidity.md            @WDCS/blockchain-security
+/standards/move.md                @WDCS/blockchain-security
+
+# Distribution and CI.
+/.github/                         @WDCS/devops
+/.claude-plugin/                  @WDCS/devops
+/scripts/                         @WDCS/devops

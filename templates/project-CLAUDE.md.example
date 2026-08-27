@@ -1,0 +1,32 @@
+# Project Instructions
+
+## Project
+
+Describe what this project does.
+
+## Architecture
+
+Describe the project-specific architecture.
+
+## Commands
+
+```text
+install:
+dev:
+lint:
+typecheck:
+test:
+build:
+```
+
+## Project-specific conventions
+
+Document only rules that are specific to this project.
+
+## Security-sensitive areas
+
+Document authentication, authorization, key handling, financial logic, privileged APIs, or other important trust boundaries.
+
+## Organization baseline
+
+This project follows WDCS organization-wide engineering standards. Do not weaken them.

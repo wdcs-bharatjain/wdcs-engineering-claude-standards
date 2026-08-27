@@ -1,0 +1,28 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account.json
+
+# Local Claude Code state
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Installer backups
+*.backup.*
+
+# Generated
+node_modules/
+dist/
+build/
+target/
+coverage/
+.cache/

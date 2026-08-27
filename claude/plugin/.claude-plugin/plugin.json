@@ -1,0 +1,14 @@
+{
+  "name": "wdcs",
+  "displayName": "WDCS Engineering Standards",
+  "version": "1.1.0",
+  "description": "WDCS organization-wide engineering, security, Git, and Claude Code standards, with deny-by-default guardrails for secret files and unsafe Git operations.",
+  "author": {
+    "name": "WDCS Engineering"
+  },
+  "homepage": "https://github.com/CodezerosDev/wdcs-engineering-claude-standards",
+  "repository": "https://github.com/CodezerosDev/wdcs-engineering-claude-standards",
+  "license": "LicenseRef-WDCS-Proprietary",
+  "keywords": ["standards", "security", "review", "git", "dependencies"],
+  "hooks": "./hooks/hooks.json"
+}

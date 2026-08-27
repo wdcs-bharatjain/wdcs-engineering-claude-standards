@@ -1,0 +1,8 @@
+# Replace with actual WDCS teams/owners.
+
+# Security-sensitive areas
+# /auth/ @WDCS/security
+# /security/ @WDCS/security
+# /contracts/ @WDCS/blockchain-security
+# /move/ @WDCS/blockchain-security
+# /.github/ @WDCS/devops
